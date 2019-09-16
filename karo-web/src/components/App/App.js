@@ -16,11 +16,11 @@ function App() {
                         <h1 className="full-name">Keir Nellyer</h1>
                         <h2 className="job-title">Software Engineer</h2>
                         <ul className="social list-inline">
-                            <li className="list-inline-item"><a href="https://github.com/iKeirNez" target="_blank"><i className="fa fa-github-alt"/></a>
+                            <li className="list-inline-item"><a href="https://github.com/iKeirNez" target="_blank" rel="noopener noreferrer"><i className="fa fa-github-alt"/></a>
                             </li>
-                            <li className="list-inline-item"><a href="https://uk.linkedin.com/in/ikeirnez" target="_blank"><i className="fa fa-linkedin"/></a>
+                            <li className="list-inline-item"><a href="https://uk.linkedin.com/in/ikeirnez" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"/></a>
                             </li>
-                            <li className="list-inline-item"><a href="https://twitter.com/iKeirNez" target="_blank"><i className="fa fa-twitter"/></a>
+                            <li className="list-inline-item"><a href="https://twitter.com/iKeirNez" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"/></a>
                             </li>
                         </ul>
                     </div>
@@ -94,8 +94,8 @@ function App() {
                             <div className="content">
                                 <ul className="list-unstyled">
                                     <li><i className="fa fa-fw fa-map-pin"/><span className="sr-only">Location: </span>Dunfermline, UK</li>
-                                    <li><i className="fa fa-fw fa-briefcase"/><span className="sr-only">Company:</span><a href="https://www.cubecraft.net" target="_blank">CubeCraft Games</a></li>
-                                    <li><i className="fa fa-fw fa-key"/><span className="sr-only">PGP: </span><a href="https://keybase.io/keir_nellyer" target="_blank">279B 64A7 971B 4FF4</a></li>
+                                    <li><i className="fa fa-fw fa-briefcase"/><span className="sr-only">Company:</span><a href="https://www.cubecraft.net" target="_blank" rel="noopener noreferrer">CubeCraft Games</a></li>
+                                    <li><i className="fa fa-fw fa-key"/><span className="sr-only">PGP: </span><a href="https://keybase.io/keir_nellyer" target="_blank" rel="noopener noreferrer">279B 64A7 971B 4FF4</a></li>
                                 </ul>
                             </div>
                         </div>
