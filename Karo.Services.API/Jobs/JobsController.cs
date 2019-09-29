@@ -27,6 +27,7 @@ namespace Karo.Services.API.Jobs
                 Company = "CubeCraft Games",
                 Position = "Service Developer",
                 Start = new DateTimeOffset(2016, 12, 1, 0, 0, 0, TimeSpan.Zero),
+                End = new DateTimeOffset(2017, 6, 1, 0, 0, 0, TimeSpan.Zero),
                 Description = "Developed game server features and backend APIs, systems and storage schemas for a remote software development company."
             };
             
