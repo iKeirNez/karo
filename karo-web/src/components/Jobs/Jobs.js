@@ -32,7 +32,7 @@ class Jobs extends React.Component {
     renderPositions() {
         return this.state.jobs.map(job => (
             <div className="item" key={job.id}>
-                <h3 className="title">{job.position} <span className="place"> <a href="#">{job.company}</a></span> <span className="year">({job.$start.format("MMMM YYYY")} - {job.$end ? job.$end.format("MMMM YYYY") : "Present"})</span></h3>
+                <h3 className="title">{job.position} <span className="place"> <a href={job.url} target="_blank">{job.company}</a></span> <span className="year">({job.$start.format("MMMM YYYY")} - {job.$end ? job.$end.format("MMMM YYYY") : "Present"})</span></h3>
                 <p>{job.description}</p>
             </div>
         ));

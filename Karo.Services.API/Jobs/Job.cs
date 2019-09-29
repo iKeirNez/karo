@@ -12,6 +12,8 @@ namespace Karo.Services.API.Jobs
         
         public string Description { get; set; }
         
+        public string Url { get; set; }
+        
         public DateTimeOffset Start { get; set; }
         
         public DateTimeOffset? End { get; set; }
