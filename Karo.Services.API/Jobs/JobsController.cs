@@ -13,6 +13,7 @@ namespace Karo.Services.API.Jobs
         {
             var airts = new Job()
             {
+                Id = Guid.NewGuid().ToString(),
                 Company = "Airts",
                 Position = "Software Developer",
                 Start = new DateTimeOffset(2017, 4, 1, 0, 0, 0, TimeSpan.Zero),
@@ -22,6 +23,7 @@ namespace Karo.Services.API.Jobs
 
             var cubeCraft = new Job()
             {
+                Id = Guid.NewGuid().ToString(),
                 Company = "CubeCraft Games",
                 Position = "Service Developer",
                 Start = new DateTimeOffset(2016, 12, 1, 0, 0, 0, TimeSpan.Zero),

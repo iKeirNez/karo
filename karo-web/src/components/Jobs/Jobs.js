@@ -16,7 +16,7 @@ class Jobs extends React.Component {
     
     createPositions() {
         return this.state.jobs.map(job => (
-            <div className="item">
+            <div className="item" key={job.id}>
                 <h3 className="title">{job.position} <span className="place"> <a href="#">{job.company}</a></span> <span className="year">({job.start} - {job.end})</span></h3>
                 <p>{job.description}</p>
             </div>
