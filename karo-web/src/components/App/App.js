@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Jobs from "../Jobs/Jobs";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
@@ -47,44 +48,7 @@ function App() {
                         </div>
                     </section>
                     <section className="experience section">
-                        <div className="section-inner">
-                            <h2 className="heading">Work Experience</h2>
-                            <div className="content">
-                                <div className="item">
-                                    <h3 className="title">Service Developer <span className="place"> <a href="https://www.cubecraft.net">CubeCraft Games</a></span> <span className="year">(December 2016 - Present)</span></h3>
-                                    <p>Hired by CubeCraft to develop various services for their large Minecraft
-                                        multiplayer server.</p>
-                                </div>
-                                <div className="item">
-                                    <h3 className="title">Software Engineer <span className="place"> <a href="http://mineplex.com">Mineplex, LLC</a></span> <span className="year">(October 2015 - November 2016)</span></h3>
-                                    <p>Worked on mostly backend server solutions for one of the largest Minecraft
-                                        multiplayer networks, these solutions occasionally had to be capable of
-                                        communicating across multiple server instances (accomplished using Redis).
-                                        I spent most of my time there working on non-games/player lobby features.
-                                        I also had to design and implement a backend database structure and create
-                                        PHP scripts to dynamically generate web pages to fetch, process and display
-                                        data from said database.</p>
-                                </div>
-                                <div className="item">
-                                    <h3 className="title">Lead Developer <span className="place"> <a href="https://minecraftly.com">Minecraftly</a></span> <span className="year">(October 2012 - April 2016)</span></h3>
-                                    <p>Worked as lead developer of a highly ambitious project to allow massive
-                                        amounts of players to host their own Minecraft worlds and invite their
-                                        friends to join them in their world. The backend servers were designed
-                                        to be infinitely scalable by using multiple Google Compute instances to
-                                        distribute the load, these would dynamically scale up or down depending
-                                        on server traffic. This allowed the system to be effectively limitless.</p>
-                                </div>
-                                <div className="item">
-                                    <h3 className="title">Software Developer <span className="place">Puzl Inc.</span> <span className="year">(August 2015 - November 2015)</span></h3>
-                                    <p>Developed server-side applications based on specification provided by
-                                        clients which had been sourced by Puzl Inc. These projects mainly made
-                                        use of Java, MySQL and the <a href="http://bukkit.org">Bukkit API</a>. This
-                                        involved working directly with the client and ensuring they were satisfied
-                                        with the end product by implementing requested changes and additions in
-                                        a timely manner.</p>
-                                </div>
-                            </div>
-                        </div>
+                        <Jobs className="section-inner" />
                     </section>
                 </div>
                 <div className="secondary col-lg-4 col-md-12 col-12">
